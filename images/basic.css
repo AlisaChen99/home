@@ -1,0 +1,92 @@
+/*This is a cascading style sheet to format our webpage */
+/*Formatting all headers*/
+h1, h2, h3, h4
+{
+	color: hotpink;
+	font-family: courier;
+}
+
+h1{
+	border-bottom:1px solid grey;
+	padding-bottom:3px; 
+}
+
+p 
+{
+	border: 3px solid white;
+	border-radius: 20px;
+	padding: 30px;
+}
+
+body {
+	padding: 0 300px 60px;
+	background: url('background.png') center/cover no-repeat;
+	height: 100%;
+}
+
+/*Global formatting*/
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: segoe ui;
+}
+
+/*Giving tables space between text and borders*/
+th, td {
+	padding: 10px;
+} 
+
+/*Ensuring that header text isn't pushed to the left of the navigator*/
+nav{
+	height:80px;
+	width:100%;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+/*Formatting and styling navigator text*/
+nav a{
+	color: hotpink;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+
+a.active, a:hover, tr:hover{
+	background-color: pink;
+	transition: .5s;
+}
+
+
+#wikiframe, img.right, nav ul, nav{	
+	float:right;
+}
+ 
+
+img.left{
+	float:left;
+}
+
+img{
+	border-radius:30px;
+	padding:15px;
+	width:280px;
+}
+
+img.bigimg{
+	width:860px;
+}
+
+iframe{
+	width:380px;
+	height:250px;
+}
+
+table, th, td{
+	border:1px solid;
+}
+
