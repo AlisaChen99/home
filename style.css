@@ -81,6 +81,11 @@ img.bigimg{
 	width:100%;
 }
 
+img.validator{
+	height:50px;
+	width:100px;
+}
+
 /*Rounding all iframe corners and adjusting dimensions*/
 iframe{
 	border-radius:30px;
