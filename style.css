@@ -1,0 +1,98 @@
+/*This is a cascading style sheet to format the webpage */
+/*Formatting all headers*/
+h1, h2, h3, h4
+{
+	color: hotpink;
+	font-family: courier;
+}
+
+/*Adding a border under all h1 headings*/
+h1{
+	border-bottom:1px solid grey;
+	padding-bottom:3px; 
+}
+
+p 
+{
+	border: 3px solid white;
+	border-radius: 20px;
+	padding: 30px;
+}
+
+/*Centering text and setting background image*/
+body {
+	padding: 0 300px 60px;
+	background: url("images/background.png") center/cover no-repeat;
+	height: 100%;
+}
+
+/*General global formatting*/
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: segoe ui;
+}
+
+/*Formatting tables to have padding and a border*/
+table, th, td {
+	padding: 10px;
+	border:1px solid;
+} 
+
+
+/*Ensuring that header text isn't pushed to the left of the navigator*/
+nav{
+	height:80px;
+	width:100%;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+/*Formatting and styling navigator text*/
+nav a{
+	color: hotpink;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+
+/*Changing background colour when hovering/clicking links and table rows*/
+a.active, a:hover, tr:hover{
+	background-color: pink;
+	transition: .5s;
+}
+
+/*Rounding all image corners and adding space around them*/
+img{
+	border-radius:30px;
+	padding:15px;
+	width:280px;
+}
+ 
+img.left{
+	float:left;
+}
+
+img.bigimg{
+	width:780px;
+}
+
+/*Rounding all iframe corners and adjusting dimensions*/
+iframe{
+	border-radius:30px;
+	width:385px;
+	height:250px;
+}
+
+#wikiframe, img.right, nav ul, nav{	
+	float:right;
+}
+
+#references{
+	height:500px;
+	width:800px;
+}
