@@ -83,7 +83,7 @@ img.bigimg{
 
 img.validator{
 	height:50px;
-	width:120px;
+	width:140px;
 }
 
 /*Rounding all iframe corners and adjusting dimensions*/
@@ -97,7 +97,3 @@ iframe{
 	float:right;
 }
 
-#references{
-	height:500px;
-	width:1200px;
-}
